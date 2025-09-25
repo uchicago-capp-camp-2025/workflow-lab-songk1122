@@ -28,7 +28,7 @@ def main():
 
     # pick a word at random
     word = random.choice(words)
-    print(f"chosen word: {word}")
+    # print(f"chosen word: {word}")
 
     # play the game until they win or run out of guesses
     while guesses > 0:
