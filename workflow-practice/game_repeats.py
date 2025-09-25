@@ -28,7 +28,7 @@ def main():
 
     # pick a word at random
     word = random.choice(words)
-    # print(f"chosen word: {word}")
+    print(f"chosen word: {word}")
 
     # play the game until they win or run out of guesses
     while guesses > 0:
@@ -44,7 +44,7 @@ def main():
         if letter in guessed:
             # if the letter is already guessed, we tell them that
             # (and let them guess again with no penalty)
-            Print(f"\nAlready guessed {letter}!")
+            print(f"\nAlready guessed {letter}!")
         else:
             # update guesses and which letters have been seen
             guessed.add(letter)
