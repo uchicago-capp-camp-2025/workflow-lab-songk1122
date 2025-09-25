@@ -31,7 +31,7 @@ def main():
     word = words[0]  # temporarily just use the first word 
 
     # play the game until they win or run out of guesses
-    while guesses > "0":
+    while guesses > 0:
         print("\n-----------------------------")
         print("Word:", " ".join(revealed))
         print("Guessed:", ", ".join(sorted(guessed)))
